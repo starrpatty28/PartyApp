@@ -54,14 +54,38 @@
 		81EAA5201E8C2FF70019FC91 /* PartyApp */ = {
 			isa = PBXGroup;
 			children = (
+				81EAA5351E8C31250019FC91 /* Model */,
+				81EAA5341E8C311E0019FC91 /* View */,
+				81EAA5331E8C30FF0019FC91 /* Controller */,
 				81EAA5211E8C2FF70019FC91 /* AppDelegate.swift */,
-				81EAA5231E8C2FF70019FC91 /* MainVC.swift */,
 				81EAA5251E8C2FF70019FC91 /* Main.storyboard */,
-				81EAA5281E8C2FF70019FC91 /* Assets.xcassets */,
 				81EAA52A1E8C2FF70019FC91 /* LaunchScreen.storyboard */,
+				81EAA5281E8C2FF70019FC91 /* Assets.xcassets */,
 				81EAA52D1E8C2FF70019FC91 /* Info.plist */,
 			);
 			path = PartyApp;
+			sourceTree = "<group>";
+		};
+		81EAA5331E8C30FF0019FC91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81EAA5231E8C2FF70019FC91 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		81EAA5341E8C311E0019FC91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		81EAA5351E8C31250019FC91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
