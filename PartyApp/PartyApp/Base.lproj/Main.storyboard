@@ -27,12 +27,22 @@
                                     <constraint firstAttribute="height" constant="149" id="8ih-AF-TYs"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8j1-94-jPU">
+                                <rect key="frame" x="0.0" y="149" width="320" height="30"/>
+                                <color key="backgroundColor" red="0.87075666243654826" green="0.87075666243654826" blue="0.87075666243654826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6S5-Rx-1X0"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="NbQ-PL-7ID" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5Dc-3s-Rik"/>
                             <constraint firstItem="NbQ-PL-7ID" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6fL-E8-1i0"/>
                             <constraint firstAttribute="trailing" secondItem="NbQ-PL-7ID" secondAttribute="trailing" id="Pho-bY-cCX"/>
+                            <constraint firstAttribute="trailing" secondItem="8j1-94-jPU" secondAttribute="trailing" id="jTg-8K-JUI"/>
+                            <constraint firstItem="8j1-94-jPU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="joR-6G-Noq"/>
+                            <constraint firstItem="8j1-94-jPU" firstAttribute="top" secondItem="NbQ-PL-7ID" secondAttribute="bottom" id="pH8-h1-92k"/>
                         </constraints>
                     </view>
                 </viewController>
