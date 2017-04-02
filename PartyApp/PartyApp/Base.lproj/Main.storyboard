@@ -30,26 +30,25 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8j1-94-jPU">
                                 <rect key="frame" x="0.0" y="149" width="320" height="30"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2cq-d6-e00">
-                                        <rect key="frame" x="8" y="0.0" width="193" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2cq-d6-e00">
+                                        <rect key="frame" x="8" y="3" width="304" height="33"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zco-RX-2dH">
-                                                <rect key="frame" x="0.0" y="0.0" width="76" height="33"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zco-RX-2dH">
+                                                <rect key="frame" x="0.0" y="0.0" width="101.5" height="33"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
                                                 <state key="normal" title="Top Videos">
                                                     <color key="titleColor" red="0.92227157360406098" green="0.27061636028092467" blue="0.78209117984967413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5AZ-VX-Vu1">
-                                                <rect key="frame" x="76" y="0.0" width="71" height="33"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5AZ-VX-Vu1">
+                                                <rect key="frame" x="101.5" y="0.0" width="101" height="33"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
                                                 <state key="normal" title="Top Songs">
                                                     <color key="titleColor" red="0.56765169453654818" green="0.56765169453654818" blue="0.56765169453654818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKc-zz-oY1">
-                                                <rect key="frame" x="147" y="0.0" width="46" height="33"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKc-zz-oY1">
+                                                <rect key="frame" x="202.5" y="0.0" width="101.5" height="33"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
                                                 <state key="normal" title="Events">
                                                     <color key="titleColor" red="0.56765169453654818" green="0.56765169453654818" blue="0.56765169453654818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -60,17 +59,39 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.87075666243654826" green="0.87075666243654826" blue="0.87075666243654826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="2cq-d6-e00" secondAttribute="trailing" constant="8" id="1o7-fW-UYq"/>
                                     <constraint firstAttribute="height" constant="30" id="6S5-Rx-1X0"/>
+                                    <constraint firstItem="2cq-d6-e00" firstAttribute="leading" secondItem="8j1-94-jPU" secondAttribute="leading" constant="8" id="pg7-pt-hJY"/>
+                                    <constraint firstItem="2cq-d6-e00" firstAttribute="top" secondItem="8j1-94-jPU" secondAttribute="top" constant="3" id="rmp-Ks-JiM"/>
                                 </constraints>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="64" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Jgd-BF-mci">
+                                <rect key="frame" x="0.0" y="179" width="320" height="389"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="64" id="naw-ZP-nxv">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="64"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="naw-ZP-nxv" id="yVZ-hX-NxW">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="63.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.1630230536" green="0.87406428970000005" blue="0.0099866425970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="NbQ-PL-7ID" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5Dc-3s-Rik"/>
                             <constraint firstItem="NbQ-PL-7ID" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6fL-E8-1i0"/>
+                            <constraint firstAttribute="trailing" secondItem="Jgd-BF-mci" secondAttribute="trailing" id="6uI-o7-zUq"/>
                             <constraint firstAttribute="trailing" secondItem="NbQ-PL-7ID" secondAttribute="trailing" id="Pho-bY-cCX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Jgd-BF-mci" secondAttribute="bottom" id="SJE-bC-Tit"/>
+                            <constraint firstItem="Jgd-BF-mci" firstAttribute="top" secondItem="8j1-94-jPU" secondAttribute="bottom" id="fNo-YG-8Yc"/>
                             <constraint firstAttribute="trailing" secondItem="8j1-94-jPU" secondAttribute="trailing" id="jTg-8K-JUI"/>
                             <constraint firstItem="8j1-94-jPU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="joR-6G-Noq"/>
+                            <constraint firstItem="Jgd-BF-mci" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mPK-Rf-uEs"/>
                             <constraint firstItem="8j1-94-jPU" firstAttribute="top" secondItem="NbQ-PL-7ID" secondAttribute="bottom" id="pH8-h1-92k"/>
                         </constraints>
                     </view>
