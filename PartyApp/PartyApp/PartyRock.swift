@@ -14,7 +14,7 @@ class PartyRock {
     private var _videoURL: String!
     private var _videoTitle: String!
     
-    var imageURL: String {
+    var imageURL: String {  //this keeps outside classes from mannipulate yor data
         return _imageURL
     }
     
@@ -25,7 +25,6 @@ class PartyRock {
     var videoTitle: String {
         return _videoTitle
     }
-    
     
     init(imageURL: String, videoURL: String, videoTitle: String) {
         
