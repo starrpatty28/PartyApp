@@ -154,7 +154,7 @@
                                 </constraints>
                             </webView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.82530932739999996" green="0.82530932739999996" blue="0.82530932739999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="59t-5B-XX8" secondAttribute="trailing" id="arr-Ns-3bW"/>
                             <constraint firstItem="59t-5B-XX8" firstAttribute="leading" secondItem="f4b-lv-oDB" secondAttribute="leading" id="iif-at-4CK"/>
