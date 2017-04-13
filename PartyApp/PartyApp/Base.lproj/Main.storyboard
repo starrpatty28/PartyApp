@@ -145,12 +145,26 @@
                     <view key="view" contentMode="scaleToFill" id="f4b-lv-oDB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="59t-5B-XX8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="237"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="237" id="oAN-t1-psC"/>
+                                </constraints>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="59t-5B-XX8" secondAttribute="trailing" id="arr-Ns-3bW"/>
+                            <constraint firstItem="59t-5B-XX8" firstAttribute="leading" secondItem="f4b-lv-oDB" secondAttribute="leading" id="iif-at-4CK"/>
+                            <constraint firstItem="59t-5B-XX8" firstAttribute="top" secondItem="f4b-lv-oDB" secondAttribute="top" id="t2s-Gt-rqy"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cmz-lQ-jUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="589" y="34"/>
+            <point key="canvasLocation" x="671.25" y="33.802816901408448"/>
         </scene>
     </scenes>
     <resources>
