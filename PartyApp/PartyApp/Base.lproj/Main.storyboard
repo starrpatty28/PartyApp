@@ -126,15 +126,18 @@
                             <constraint firstItem="8j1-94-jPU" firstAttribute="top" secondItem="NbQ-PL-7ID" secondAttribute="bottom" id="pH8-h1-92k"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="kua-8r-eqY" kind="showDetail" identifier="VideoVC" id="vMq-iG-NJY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24.375" y="33.802816901408448"/>
+            <point key="canvasLocation" x="-189" y="34"/>
         </scene>
-        <!--View Controller-->
+        <!--VideoVC-->
         <scene sceneID="diV-kK-H2u">
             <objects>
-                <viewController id="kua-8r-eqY" sceneMemberID="viewController">
+                <viewController id="kua-8r-eqY" customClass="VideoVC" customModule="PartyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i3p-KK-AUn"/>
                         <viewControllerLayoutGuide type="bottom" id="R3V-e1-WMY"/>
