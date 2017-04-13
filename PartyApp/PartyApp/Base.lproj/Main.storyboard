@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12078"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -88,17 +89,22 @@
                                                         <constraint firstAttribute="width" constant="68" id="ISL-r8-PIB"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ov8-8R-gAK">
-                                                    <rect key="frame" x="76" y="24" width="155" height="33"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where the sun goes..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ov8-8R-gAK">
+                                                    <rect key="frame" x="76" y="17" width="236" height="44"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="44" id="ycj-6J-9IX"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="32"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.1630230536" green="0.87406428970000005" blue="0.0099866425970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstItem="3uh-Lp-f9d" firstAttribute="leading" secondItem="yVZ-hX-NxW" secondAttribute="leading" id="2F4-1y-51A"/>
+                                                <constraint firstItem="ov8-8R-gAK" firstAttribute="centerY" secondItem="yVZ-hX-NxW" secondAttribute="centerY" id="Bzw-Y2-nuN"/>
+                                                <constraint firstItem="ov8-8R-gAK" firstAttribute="leading" secondItem="3uh-Lp-f9d" secondAttribute="trailing" constant="8" id="Tm0-1b-QIU"/>
+                                                <constraint firstItem="ov8-8R-gAK" firstAttribute="trailing" secondItem="yVZ-hX-NxW" secondAttribute="trailingMargin" id="jaP-HS-fFL"/>
                                                 <constraint firstItem="3uh-Lp-f9d" firstAttribute="centerY" secondItem="yVZ-hX-NxW" secondAttribute="centerY" id="obQ-Fe-KhV"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -124,6 +130,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="24.375" y="33.802816901408448"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="diV-kK-H2u">
+            <objects>
+                <viewController id="kua-8r-eqY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i3p-KK-AUn"/>
+                        <viewControllerLayoutGuide type="bottom" id="R3V-e1-WMY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f4b-lv-oDB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cmz-lQ-jUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="729" y="34"/>
         </scene>
     </scenes>
     <resources>

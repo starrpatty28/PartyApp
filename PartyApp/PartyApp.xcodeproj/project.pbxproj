@@ -13,6 +13,7 @@
 		81EAA5291E8C2FF70019FC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EAA5281E8C2FF70019FC91 /* Assets.xcassets */; };
 		81EAA52C1E8C2FF70019FC91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EAA52A1E8C2FF70019FC91 /* LaunchScreen.storyboard */; };
 		81EAA53B1E90B0480019FC91 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81EAA5381E90B0480019FC91 /* still time.ttf */; };
+		81EAA53F1E9F144F0019FC91 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EAA53E1E9F144F0019FC91 /* VideoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		81EAA52B1E8C2FF70019FC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81EAA52D1E8C2FF70019FC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81EAA5381E90B0480019FC91 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "still time.ttf"; path = "still_time/still time.ttf"; sourceTree = "<group>"; };
+		81EAA53E1E9F144F0019FC91 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				81EAA5231E8C2FF70019FC91 /* MainVC.swift */,
+				81EAA53E1E9F144F0019FC91 /* VideoVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EAA53F1E9F144F0019FC91 /* VideoVC.swift in Sources */,
 				81EAA5241E8C2FF70019FC91 /* MainVC.swift in Sources */,
 				81EAA5221E8C2FF70019FC91 /* AppDelegate.swift in Sources */,
 			);
