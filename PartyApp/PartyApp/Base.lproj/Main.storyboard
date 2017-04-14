@@ -90,7 +90,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where the sun goes..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ov8-8R-gAK">
-                                                    <rect key="frame" x="76" y="17" width="236" height="44"/>
+                                                    <rect key="frame" x="76" y="17" width="291" height="44"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="44" id="ycj-6J-9IX"/>
                                                     </constraints>
@@ -131,6 +131,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="tableView" destination="Jgd-BF-mci" id="w5u-Dg-Wxh"/>
                         <segue destination="kua-8r-eqY" kind="showDetail" identifier="VideoVC" id="vMq-iG-NJY"/>
                     </connections>
                 </viewController>
